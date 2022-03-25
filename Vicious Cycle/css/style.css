@@ -1,0 +1,87 @@
+body{
+	background-color: #545454;
+	height: 100%;
+	
+	box-sizing: border-box;
+	padding-left: 8%;
+	padding-right: 8%;
+	margin: 0;
+	
+}
+
+header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 18px;
+	border: solid white 2px;
+}
+h1{
+	font-family: serif;
+	font-size: 48;
+	text-align: center;
+	color: #545454;
+}
+
+.container{
+	background-color: #a3620a;
+	width: 100%;
+	min-height: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+	overflow: hidden; 
+	box-sizing: border-box;
+	border: solid black 2px;
+
+}
+nav{
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+li{
+	display: inline;
+}
+
+.about p{
+	font-family: serif;
+	font-size: 24px;
+	float: left;
+	text-align: left;
+}
+
+.logo{
+	border: solid black 2px;
+	max-width: 600px;
+	height: auto;
+	margin-top: 12px;
+}
+
+.honda1 {
+  border: solid black 2px;
+  height: 500px;
+  width: 300px;
+  
+  
+  
+}
+
+footer{
+	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	
+	background-color: black;
+	text-align: center;
+	color: #a3620a;
+}
